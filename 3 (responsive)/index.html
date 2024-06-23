@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play' ></i> Movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+        <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="1.jpg">
+                <div class="home-text">
+                    <span>The Avengers</span>
+                    <h1>Infinity War</h1>
+                    <a href ="#" class="btn">Book Now</a>
+                    <a href ="#" class="play">
+                        <i class='bx bx-play-circle' ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="2.jpg">
+                <div class="home-text">
+                    <span>Harry Potter</span>
+                    <h1>Philosopher's Stone</h1>
+                    <a href ="#" class="btn">Book Now</a>
+                    <a href ="#" class="play">
+                        <i class='bx bx-play-circle' ></i>
+                    </a>
+                </div>  
+            </div>
+            
+          </div>  
+
+          <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <div class="movies-container">
+           <div class="box">
+            <div class="box-img">
+                <img src="3.png">
+            </div>
+            <h3>Blade Runner 2049</h3>
+            <span>120min | Action</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="4.png">
+            </div>
+            <h3>Oppenheimer</h3>
+            <span>180min | Thriller</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="5.png">
+            </div>
+            <h3>The Assasin</h3>
+            <span>120min | Thriller</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="6.png">
+            </div>
+            <h3>Star Wars Rogue One</h3>
+            <span>120min | Adventure</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="7.png">
+            </div>
+            <h3>The Avengers</h3>
+            <span>120min | Action</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="8.png">
+            </div>
+            <h3>Black Panther</h3>
+            <span>120min | Adventure</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="9.jpg">
+            </div>
+            <h3>Archer</h3>
+            <span>120min | Action</span>
+           </div>
+
+           <div class="box">
+            <div class="box-img">
+                <img src="10.png">
+            </div>
+            <h3>The Empire Strikes Back</h3>
+            <span>120min | Action</span>
+           </div>
+        </div>
+    </section>
+
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="11.png">
+                    </div>
+                    <h3>Joker</h3>
+                    <span>120min | Action</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="12.png">
+                    </div>
+                    <h3>Ready Player One</h3>
+                    <span>180min | Thriller</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="13.png">
+                    </div>
+                    <h3>Fast X</h3>
+                    <span>120min | Thriller</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="14.png">
+                    </div>
+                    <h3>Cold Souls</h3>
+                    <span>120min | Psychological</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="15.png">
+                    </div>
+                    <h3>Powrot Jedi</h3>
+                    <span>120min | Action</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="16.png">
+                    </div>
+                    <h3>The Green Knight</h3>
+                    <span>120min | Adventure</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="17.png">
+                    </div>
+                    <h3>Brave</h3>
+                    <span>120min | Action</span>
+                </div>
+        
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="18.png">
+                    </div>
+                    <h3>Mortal Engines</h3>
+                    <span>120min | Action</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="19.png">
+                    </div>
+                    <h3>Relic</h3>
+                    <span>120min | Action</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="20.png">
+                    </div>
+                    <h3>127 Hours</h3>
+                    <span>120min | Action</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe to Get <br/> Newsletters</h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter email..." required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form><br><br><br>
+    </section>
+
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play' ></i> Movies
+        </a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
